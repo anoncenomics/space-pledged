@@ -1,0 +1,17 @@
+{
+  "name": "space-pledged-chart",
+  "version": "1.0.0",
+  "description": "Interactive visualization of space pledged data over blockchain height",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "blockchain",
+    "visualization",
+    "chart",
+    "data"
+  ],
+  "author": "",
+  "license": "MIT"
+} 

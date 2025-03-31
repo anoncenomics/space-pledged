@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Pledged Chart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Space Pledged Over Time</h1>
+            <div class="subtitle">Visualizing network storage capacity across blockchain height</div>
+        </header>
+        
+        <div class="chart-container">
+            <div id="spaceChart"></div>
+        </div>
+        
+        <div class="stats-container">
+            <div class="stat-box">
+                <h3>Min Space</h3>
+                <div id="min-space" class="stat-value">Loading...</div>
+            </div>
+            <div class="stat-box">
+                <h3>Max Space</h3>
+                <div id="max-space" class="stat-value">Loading...</div>
+            </div>
+            <div class="stat-box">
+                <h3>Current Space</h3>
+                <div id="current-space" class="stat-value">Loading...</div>
+            </div>
+            <div class="stat-box">
+                <h3>Growth Rate</h3>
+                <div id="growth-rate" class="stat-value">Loading...</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Load libraries first -->
+    <script src="https://unpkg.com/lightweight-charts@4.1.1/dist/lightweight-charts.standalone.production.js"></script>
+    <!-- Load app after libraries -->
+    <script src="app.js"></script>
+</body>
+</html> 
