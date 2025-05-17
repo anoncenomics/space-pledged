@@ -12,7 +12,7 @@ An interactive visualization of space pledged data across blockchain heights.
 
 ## Requirements
 
-- Node.js (any recent version)
+- Node.js (any recent version).
 
 ## Running the Application
 
